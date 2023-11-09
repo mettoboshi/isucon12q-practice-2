@@ -1,6 +1,7 @@
 # skeemaに関する情報
 VERSION = "1.10.1"  # version
-ARCH = "arm64"      # アーキテクチャ
+# ARCH = "arm64"      # アーキテクチャ
+ARCH = "amd64"      # アーキテクチャ
 PLATFORM = "linux"  # プラットフォーム
 
 URL = "https://github.com/skeema/skeema/releases/download/v#{VERSION}/skeema_#{VERSION}_#{PLATFORM}_#{ARCH}.tar.gz"
